@@ -9,10 +9,19 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 def sub(a,b):
     return a*b
+def add(a,b):
+    return a+b
+def mult(a,b):
+    return a*b
+def doublesub(a,b):
+    return a//b
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    print(mul(2, 3))
+    print(mult(2, 3))
+    print(sub(2, 3))
+    print(add(2, 3))
+    print(doublesub(2, 3))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
